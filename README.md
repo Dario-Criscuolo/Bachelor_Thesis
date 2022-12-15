@@ -1,4 +1,4 @@
-# Dario-s-thesis
+# Bachelor Thesis
 L’obiettivo di questa tesi di laurea è quello di fornire un metodo per l'estrazione di una parte specifica di un'immagine, 
 anche di bassa qualità, ricavando successivamente la grandezza reale dell'oggetto che è scopo di analisi.
 Nel concreto prenderò delle immagini dove sono presenti tronchi visti da davanti all'interno di uno sfondo generico,
