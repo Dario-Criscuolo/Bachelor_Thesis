@@ -25,10 +25,7 @@ all'interno dell'algoritmo di calcolo per ottenere il volume totale dei tronchi.
 
 
 # Input che prendono gli algoritmi
--Immagine con i tronchi
-
--Lunghezza media dei tronchi
-
--Valore dell'area reale di un tronco
-
--Immagine ritagliata del tronco di cui ho il valore dell'area
+* Immagine con i tronchi
+* Lunghezza media dei tronchi
+* Valore dell'area reale di un tronco
+* Immagine ritagliata del tronco di cui ho il valore dell'area
