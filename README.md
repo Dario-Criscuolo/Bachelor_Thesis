@@ -1,31 +1,16 @@
 # Bachelor Thesis
-L’obiettivo di questa tesi di laurea è quello di fornire un metodo per l'estrazione di una parte specifica di un'immagine, 
-anche di bassa qualità, ricavando successivamente la grandezza reale dell'oggetto che è scopo di analisi.
-Nel concreto prenderò delle immagini dove sono presenti tronchi visti da davanti all'interno di uno sfondo generico,
-per poi estrarre con la segmentazione l'area dei tronchi e ottenere così il volume totale dei tronchi all'interno della fotografia.
+The objective of this thesis is to provide a method for the extraction of a specific part of an image, even of low quality, and subsequently obtain the actual size of the target that is the object of analysis.
+In practice, I will take images where there are logs seen from the front within a generic background, and firstly extract the area of the logs by segmentation and thus obtain the total volume of the logs within the photograph.
 
+# Thesis Summary
+Computers and algorithms have become useful in all aspects of our daily lives, and these often make use of images. In fact, many sectors employ photography, an immediate tool within everyone's reach, to perform computations and measurements.
+In carpentry for example, given a photograph or image, it is necessary to segment it to obtain only the necessary portion of the image (in a photograph of some logs in the forest, the aim is to extract only the portion of logs or timber, thus removing the background) on which the measurement (e.g. the calculation of the volume of that timber) will then be made. Unfortunately, one of the main problems is the quality of such images, which, in most cases, is not high enough to allow a perfect distinction between the objects. It follows then, that extracting data and measurements from images, is a difficult task, but one of relevant interest in the area of Image Analysis and Computer Science more generally.
 
-# Sommario Tesi
-Computer e algoritmi sono diventati utili in tutti gli aspetti della nostra vita quotidiana, e questi utilizzano spesso le immagini.
-Molti settori infatti impiegano la fotografia, strumento immediato e alla portata di tutti, per effettuare computazioni e misurazioni.
-Nella falegnameria ad esempio, data una fotografia o un'immagine, è necessario segmentarla ottenendo solo la porzione necessaria dell'immagine 
-(in una fotografia di alcuni tronchi nella foresta l'obiettivo è estrarre solo la porzione di tronchi o legname, togliendo così lo sfondo)
-su cui poi verrà effettuata la misura (ad esempio il calcolo del volume di tale legname). Purtroppo uno dei problemi principali è la qualità di tali immagini,
-che nella maggior parte dei casi, non è abbastanza elevata da permettere una perfetta distinzione degli oggetti. Ne consegue quindi, 
-che estrarre dati e misure dalle immagini, è un task difficile, ma d'interesse rilevante nell'area della Image Analysis e più in generale della 
-Computer Science.
+# Guide to using the algorithms
+Insert the image whose total log volume you want to know into one of the 3 segmentation algorithms (refer to the thesis file to decide which one is best for your situation on page 15). Then enter the segmented image, the cut part (thesis on p. 22) together with the log area of which we knew the area and the average log length into the calculation algorithm to obtain the total log volume.
 
-
-# Guida all'utilizzo degli algoritmi
-Inserisci l'immagine di cui vuoi sapere il volume totale dei tronchi in uno dei 3 algoritmi di segmentazione
-(riferirsi al file tesi per decidere quale sia il più adatto alla propria situazione a pag.15).
-Poi inserire l'immagine segmentata, la parte tagliata (tesi a pag. 22) insieme a l'area del tronco di cui sapevamo area e lunghezza media tronchi 
-all'interno dell'algoritmo di calcolo per ottenere il volume totale dei tronchi.
-
-
-
-# Input che prendono gli algoritmi
-* Immagine con i tronchi
-* Lunghezza media dei tronchi
-* Valore dell'area reale di un tronco
-* Immagine ritagliata del tronco di cui ho il valore dell'area
+# Input taken by the algorithms
+* Image with logs
+* Average log length
+* Actual log area value
+* Cropped image of the log whose area value I have
